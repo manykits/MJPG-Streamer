@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>JPEGCamera - Java simple</title>
+	<style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            /* background-color: aqua; */
+            margin: 0;
+            padding: 0;
+        }
+        
+        #webcam {
+            width: 100%;
+            height: 100%;
+        }
+        
+        #webcam img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+  </head>
+  <body>
+    <center>
+      <applet code="com.charliemouse.cambozola.Viewer" archive="cambozola.jar" width="640" height="480">
+        <param name="url" value="./?action=stream"/>
+      </applet>
+    </center>
+  </body>
+</html>
